@@ -6,9 +6,6 @@ on:
       - main
   pull_request:
 
-env:
-  AWS_REGION: ${{ secrets.AWS_REGION }}
-
 jobs:
   terraform:
     name: Terraform
